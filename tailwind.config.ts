@@ -14,6 +14,18 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    transitionDuration: {
+      DEFAULT: '150ms',
+      75: '75ms',
+      100: '100ms',
+      150: '150ms',
+      200: '200ms',
+      300: '300ms',
+      500: '500ms',
+      700: '700ms',
+      1000: '1000ms',
+      2000: '2000ms',
+    },
   },
   plugins: [],
 };
