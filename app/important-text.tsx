@@ -3,8 +3,6 @@
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
 
-import styles from "@/app/styles/styles.module.css";
-
 export default function ImportantText({ text, onClick, visibilityDuration }) {
   useEffect(() => {
     const timeout = setTimeout(() => setIsVisible(true), 0); // Fade in immediately
